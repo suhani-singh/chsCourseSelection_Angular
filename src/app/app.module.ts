@@ -12,6 +12,7 @@ import { ErrorPgComponent } from './error-pg/error-pg.component';
 import { GradReqPgComponent } from './grad-req-pg/grad-req-pg.component';
 import { GradReqPicComponent } from './grad-req-pic/grad-req-pic.component';
 import { Past1Component } from './past1/past1.component';
+import { PastMathComponent } from './past-math/past-math.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { Past1Component } from './past1/past1.component';
     ErrorPgComponent,
     GradReqPgComponent,
     GradReqPicComponent,
-    Past1Component
+    Past1Component,
+    PastMathComponent
   ],
   imports: [
     BrowserModule,

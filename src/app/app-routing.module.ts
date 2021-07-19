@@ -6,7 +6,7 @@ import { ErrorPgComponent } from './error-pg/error-pg.component';
 import { GradReqPgComponent } from './grad-req-pg/grad-req-pg.component';
 import { GradReqPicComponent } from './grad-req-pic/grad-req-pic.component';
 import { GradePgComponent } from './grade-pg/grade-pg.component';
-import { Past1Component } from './past1/past1.component';
+import { PastMathComponent } from './past-math/past-math.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/main', pathMatch: 'full'},
@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: 'grad/req/pg', component: GradReqPgComponent },
   { path: 'grad/info/pic', component: GradReqPicComponent },
   { path: 'grade/pg', component: GradePgComponent }, 
-  { path: 'past1', component: Past1Component },
+  { path: 'past/math', component: PastMathComponent },
 ];
 
 @NgModule({

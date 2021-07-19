@@ -11,6 +11,10 @@
     display: flex;
 }
 
+.container{
+    margin-bottom: 10px;
+}
+
 .button2{
     text-align: center;
 	justify-content: center;
