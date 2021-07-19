@@ -1,0 +1,19 @@
+.div1{
+	text-align: center;
+	justify-content: center;
+    margin-top: 15%;
+}
+
+.div2{
+    display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.p1{
+    font-size: 30px;
+    font-family: "acumin-pro-condensed", sans-serif;
+    color: #8b0e05;
+    font-weight: bold;
+    margin-top: 23px;
+}

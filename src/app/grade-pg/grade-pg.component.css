@@ -1,0 +1,28 @@
+.radio1{
+    margin-top: 15px;
+}
+
+.div1{
+    text-align: center;
+	justify-content: center;
+}
+
+.div2{
+    display: flex;
+}
+
+.button2{
+    text-align: center;
+	justify-content: center;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.container {
+    width: 50%;
+    padding-left: 19%
+}
+
+ input[type="radio"] {
+    margin-right: 5px;
+}

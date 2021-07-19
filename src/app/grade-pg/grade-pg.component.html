@@ -1,0 +1,34 @@
+<div style="text-align: center;"><p class="p3">Which grade are you going to next year?</p></div>
+<div class="container">
+
+<form [formGroup]="gradeSelectionForm" name="gradeSelection" (ngSubmit)="onSubmit()">
+
+<div class="radio">
+<label class="p2" for="grd9"><input type="radio" id="grd9"  formControlName="fav_language" name="fav_language" value="grd9" required>Grade 9</label><br>
+</div>
+
+<div class="radio">
+<label class="p2" for="grd10"><input type="radio" id="grd10" formControlName="fav_language" name="fav_language" value="grd10" required>Grade 10</label><br>
+</div>
+
+<div class="radio">
+<label class="p2" for="grd11"><input type="radio" id="grd11" formControlName="fav_language" name="fav_language" value="grd11" required>Grade 11</label><br>
+</div>
+
+<div class="radio">
+<label class="p2" for="grd12"><input type="radio" id="grd12" formControlName="fav_language" name="fav_language" value="grd12" required>Grade 12</label><br>
+</div>
+
+<!--div *ngIf="isSubmitted">
+    Please select either value
+</div-->
+<div style="padding-top: 20px;">
+    <a routerLink="/main" class="btn btn-danger" style="margin-right: 10px;"><b>Back</b></a>
+    <button  class="btn btn-danger" style="margin-left: 10px;" type="submit"><b>Next</b></button>
+    <!--a routerLink="/grad/req/pg"  class="button" (click)="validateForm()">Next</a-->
+</div>
+
+</form>
+
+
+</div>
