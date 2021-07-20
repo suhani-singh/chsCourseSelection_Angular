@@ -13,6 +13,14 @@ import { GradReqPgComponent } from './grad-req-pg/grad-req-pg.component';
 import { GradReqPicComponent } from './grad-req-pic/grad-req-pic.component';
 import { Past1Component } from './past1/past1.component';
 import { PastMathComponent } from './past-math/past-math.component';
+import { PastEnglishComponent } from './past-english/past-english.component';
+import { PastPEComponent } from './past-pe/past-pe.component';
+import { PastScienceComponent } from './past-science/past-science.component';
+import { PastHistoryComponent } from './past-history/past-history.component';
+import { PastAAComponent } from './past-aa/past-aa.component';
+import { PastArtsComponent } from './past-arts/past-arts.component';
+import { PastLangComponent } from './past-lang/past-lang.component';
+import { PastGenElecComponent } from './past-gen-elec/past-gen-elec.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +33,15 @@ import { PastMathComponent } from './past-math/past-math.component';
     GradReqPgComponent,
     GradReqPicComponent,
     Past1Component,
-    PastMathComponent
+    PastMathComponent,
+    PastEnglishComponent,
+    PastPEComponent,
+    PastScienceComponent,
+    PastHistoryComponent,
+    PastAAComponent,
+    PastArtsComponent,
+    PastLangComponent,
+    PastGenElecComponent
   ],
   imports: [
     BrowserModule,

@@ -4,7 +4,7 @@
 
 .div1{
     text-align: center;
-	justify-content: center;
+    justify-content: center;
 }
 
 .div2{
@@ -23,6 +23,6 @@
     padding-left: 19%
 }
 
- input[type="radio"] {
+input[type="radio"] {
     margin-right: 5px;
 }
