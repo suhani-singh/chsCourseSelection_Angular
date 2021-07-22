@@ -11,6 +11,11 @@
     display: flex;
 }
 
+.container {
+    width: 80%;
+    padding-left: 12%;
+}
+
 .button2{
     text-align: center;
 	justify-content: center;
@@ -20,4 +25,8 @@
 
  input[type="checkbox"] {
     margin-right: 5px;
+}
+
+.accordion{
+    margin-bottom: 10 px;
 }

@@ -14,8 +14,8 @@ import { PastHistoryComponent } from './past-history/past-history.component';
 import { PastAAComponent } from './past-aa/past-aa.component';
 import { PastArtsComponent } from './past-arts/past-arts.component';
 import { PastLangComponent } from './past-lang/past-lang.component';
-import { PastGenElecComponent } from './past-gen-elec/past-gen-elec.component';
-
+import { PastGenElecComponent } from './past-gen-elec/past-gen-elec.component'; 
+import { Past1Component } from './past1/past1.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/main', pathMatch: 'full'},
@@ -34,7 +34,7 @@ const routes: Routes = [
   { path: 'past/visual/arts', component: PastArtsComponent },
   { path: 'past/world/lang', component: PastLangComponent },
   { path: 'past/general/electives', component: PastGenElecComponent },
-
+  { path: 'past/classes', component: Past1Component},
 ];
 
 @NgModule({
